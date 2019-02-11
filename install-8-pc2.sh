@@ -1,1 +1,1 @@
-tar -xzf pc2-9.4.1-3850.tar.gz
+tar -xzf pc2-9.6.0-5102.tar.gz -C ~

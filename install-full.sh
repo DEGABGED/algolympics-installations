@@ -7,16 +7,6 @@
 # 0. Moving packages to the other computers
 # To be handled by another script
 
-# 1. Eclipse SDK 3.6.2
-# Local installation
-# 
-# This build requires a 64-bit JVM, and will not run with a 32-bit JVM.
-# You can, for example, use the Sun 64-bit 1.5 JVM for AMD64.  Note
-# that the Sun 1.4.2 JVM for AMD64 is 32-bit and therefore cannot be
-# used to run this build.
-
-#wget -O eclipse-SDK-3.6.2-linux-gtk-x86_64.tar.gz http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.6.2-201102101200/eclipse-SDK-3.6.2-linux-gtk-x86_64.tar.gz
-
 # 1. Java 1.8.0_162
 # Local installation
 ./install-1-java.sh

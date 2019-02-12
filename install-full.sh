@@ -6,6 +6,7 @@
 
 # 0. Moving packages to the other computers
 # To be handled by another script
+./install-0-prereq.sh
 
 # 1. Java 1.8.0_162
 # Local installation
@@ -17,7 +18,8 @@
 
 # 3. Code::Blocks 17.12-1 (amd64, stable)
 # Debian package installation
-./install-3-codeblocks.sh
+#./install-3-codeblocks.sh
+sudo apt-get install codeblocks
 
 # 4. Eclipse SDK 3.6.2
 # Local installation
@@ -34,7 +36,7 @@
 
 # 6. Sublime Text
 # Installation with package manager
-./install-6-sublime.sh
+#./install-6-sublime.sh
 
 # 7. NeoVim
 # Local installation (from source)
